@@ -16,10 +16,10 @@ function createWindow() {
   const { width, height } = screen.getPrimaryDisplay().workAreaSize;
 
   // Calculamos un margen del 5% del ancho de pantalla
-  const margin = width * 0.05;
+  const margin = Math.floor(width * 0.05); // Hacemos math floor porque si tiene decimales no funcionan las coordenadas
 
   // Posición horizontal de la ventana desde la derecha
-  const xPosition = width - 80 - margin;
+  const xPosition = width - 150 - margin; 
 
   // Creamos la ventana principal con las opciones deseadas
   const mainWindow = new BrowserWindow({
