@@ -1,6 +1,7 @@
 {
   "name": "usagi",
-    "productName": "Usagi",
+  "appId": "com.usagi",
+  "productName": "Usagi",
   "version": "1.0.0",
   "description": "Usagi Widget",
   "main": "./out/main/index.js",
@@ -42,7 +43,7 @@
     },
     "nsis": {
       "artifactName": "${productName}-setup.exe",
-      "oneClick": false,
+      "oneClick": true,
       "createDesktopShortcut": true
     }
   }
