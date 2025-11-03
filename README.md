@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # usagi
 
 A minimal Electron application with JavaScript
@@ -32,3 +33,6 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+=======
+# Usagi
+>>>>>>> 281fb2ad2a35867e24e397264d09b6c15b6880fa
